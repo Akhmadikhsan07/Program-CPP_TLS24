@@ -1,0 +1,32 @@
+#include <iostream>
+#include <cmath>
+
+int main() {
+    double angka1, angka2, hasil;
+    char operasi;
+    
+    std::cout << "masukin angka dulu:" ;
+    std::cin >> angka1;
+    std::cout << "pilih operasinya? (+, -, *, /):";
+    std::cin >> operasi;
+    std::cout << "masukin angka lagi:" ;
+    std::cin >> angka2;
+   
+    
+    if (operasi== '+')
+    {hasil = angka1 + angka2;}
+    else if (operasi== '-')
+    {hasil = angka1 - angka2;}
+    else if (operasi== '*')
+    {hasil = angka1*angka2;}
+    else if (operasi=='/')
+    if (angka2 !=0) {hasil=angka1/angka2;} 
+    else {std::cout <<"Gak bisa dibagi nol bos"<< std::endl;
+    return 1;
+        
+    }
+
+    
+    std::cout <<"hasil:" << hasil << std::endl;
+    return 0;
+}
