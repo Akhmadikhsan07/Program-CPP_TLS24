@@ -4,3 +4,7 @@ Program yang saya buat adalah kalkulator sederhana yang dapat menghitung operasi
 1.	Logika dasar dalam penggunaan conditional statement pada pemrograman.
 2.	Proses komputasi seperti penjumlahan, pengurangan, atau perhitungan sederhana lainnya.
 3.	Implementasi library eksternal selain iostream, memperkenalkan penggunaan berbagai pustaka yang dapat memperluas fungsi program
+
+link upload:
+Youtube: https://youtu.be/TyNqqiWhB-Q
+github: https://github.com/Akhmadikhsan07/Program-CPP_TLS24
